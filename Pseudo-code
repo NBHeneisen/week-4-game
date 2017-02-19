@@ -1,0 +1,36 @@
+Pseudo code
+
+Random number 19-120
+
+Random buttons between 1-12
+
+Set variables
+var valueMatch = {
+	button1: a random number between 1 and 12,
+	button2: see above,
+	button3: see above,
+	button4: see above,
+	goal: //a random number between 19 and 120,
+	currentNum: //your current number,
+	wins: 0
+	losses: 0
+	reset : function () {
+		resets the necessary variables to 0
+		if currentNum === goal;
+			increase wins;
+			broadcast You won!!
+		else;
+			increase losses;
+			broadcast You lost!!
+	}
+	turn: function () {
+		on button click
+			if button 1 pressed;
+				increase currentNum by button1
+			else if button 2 pressed;
+				increase by etc.
+		if currentNum >= goal;
+			reset();
+	}
+
+}
