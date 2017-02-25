@@ -20,7 +20,7 @@ img {
 
 body {
 	color: white;
-	background: url(../images/krystalLogo.jpg) no-repeat center center fixed;
+	background: url("../images/krystalLogo.jpg") no-repeat center center fixed;
 	font-family: 'Amiko', sans-serif;
 }
 
