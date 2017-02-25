@@ -1,9 +1,36 @@
 .container {
-	width: 300px;
+	width: 400px;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .jumbotron {
-	width: 400px;
+	margin-bottom:50px;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 30px;
+}
+
+
+img {
+	width:100px;
+	height:100px;
+	border:black solid;
+	margin: 0 20px;
+}
+
+body {
+	color: white;
+	background: url(../images/krystalLogo.jpg) no-repeat center center fixed;
+	font-family: 'Amiko', sans-serif;
+}
+
+p {
+	font-family: 'Amiko', sans-serif;
+	font-size: 1.2em;
+}
+
+.row {
+	margin-bottom:50px;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 30px;
 }
