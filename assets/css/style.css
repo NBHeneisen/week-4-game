@@ -1,4 +1,9 @@
 .container {
-	width: 400px;
+	width: 300px;
 	margin: 0 auto;
+	text-align: center;
+}
+
+.jumbotron {
+	width: 400px;
 }

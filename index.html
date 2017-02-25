@@ -8,6 +8,8 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+	<link rel="stylesheet" href="asset/css/style.css"
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 	<!-- Latest compiled and minified JavaScript -->
@@ -18,34 +20,36 @@
 	<script src="assets/javascript/game.js"></script>
 
 
-	<title>Week 4 Game</title>
+	<title>Krystal Collector</title>
 </head>
 <body>
 	<div class ="container">
 		<div class="jumbotron">
-		  <h1 class = "header">Collection Game</h1>
+		  <h1 class = "header">Krystal Collector Game</h1>
 		  <p>You will be given a random number at the start of the game.</p>
-		  <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		  <p>There are four Krystals below. By clicking on a Krystal you will add a specific amount of points to your total score.</p>
 		  <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-		  <p>The value of each crystal is hidden from you until you click on it.</p>
-		  <p>Each time when the game starts, the game will change values of each crystal.</p>
+		  <p>The value of each Krystal is hidden from you until you click on it.</p>
+		  <p>Each time the game starts, the game will change values of each Krystal.</p>
 		</div>
 		<div class="row">
 			<div class = "col-md-12">
 				<h2>Goal</h2>
-				<h2 class = "goal">0</h2>
+				<h2 class = "goal"></h2>
 				<h2>Current Score</h2>
 				<h2 class = "score">0</h2>
 				<h2>Wins: <span id="wins">0</span></h2>
+				<h3 class = "winning"></h3>
 				<h2>Losses: <span id="losses">0</span></h2>
+				<h3 class = "losing"></h3>
 			</div>
 		</div>
 		<div class="row">
 			<div class = "col-md-12">
-				<button id= "button1" class = "button">button1</button>
-				<button id= "button2" class = "button">button2</button>
-				<button id= "button3" class = "button">button3</button>
-				<button id= "button4" class = "button">button4</button>
+				<button id= "button1" class = "button" onClick="reply_click(this.id)">button1</button>
+				<button id= "button2" class = "button" onClick="reply_click(this.id)">button2</button>
+				<button id= "button3" class = "button" onClick="reply_click(this.id)">button3</button>
+				<button id= "button4" class = "button" onClick="reply_click(this.id)">button4</button>
 
 			</div>
 		</div>
